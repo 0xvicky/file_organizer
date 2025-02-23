@@ -34,7 +34,7 @@ fn main() {
                                         }
                                     }
                                 }
-                                //move the current entry to the created directory
+                                //move the current entry to the created directory or existed directory
                             }
                             None => println!("Error extracting extension"),
                         }
